@@ -6,8 +6,8 @@ html {
 
 body {
   padding-top: 20vh;
-  background-color: #80CEDF;
-  font-family: "franklin-gothic-urw-cond", "Helvetica", "Helvetica Neue", "Calibri", sans-serif;
+  background-color: #3ABAE3;
+  font-family: "cooper_hewittsemibold", "Helvetica", "Helvetica Neue", "Calibri", sans-serif;
   text-transform: lowercase;
   max-width: 68em;
   margin-left: auto;
@@ -23,20 +23,29 @@ body {
       padding-left: 7%; } }
 
 header {
-  font-size: 1.8em;
-  color: #4C76BD;
+  font-size: 2em;
+  font-family: "cooper_hewittmedium", "Helvetica", "Helvetica Neue", "Calibri", sans-serif;
+  color: #383733;
   padding-bottom: 20vh; }
   @media screen and (max-width: 570px) {
     header {
       padding-bottom: 5vh;
       font-size: 1.6em; } }
 
+div#section-wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  div#section-wrapper:last-child {
+    margin-right: 0; }
+
 section {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
-  font-size: 1.7em; }
+  width: 31.76157%;
+  font-size: 1.4em; }
   section:last-child {
     margin-right: 0; }
   @media screen and (max-width: 570px) {
@@ -50,11 +59,24 @@ section {
         margin-right: 0; } }
 
 section a {
-  color: white;
+  color: #F1F2F0;
   text-decoration: none;
   float: left;
   clear: both; }
   section a:hover {
-    color: #4C76BD; }
+    color: #383733; }
+
+@font-face {
+  font-family: 'cooper_hewittmedium';
+  src: url("../fonts/cooperhewitt-medium-webfont.eot");
+  src: url("../fonts/cooperhewitt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cooperhewitt-medium-webfont.woff2") format("woff2"), url("../fonts/cooperhewitt-medium-webfont.woff") format("woff"), url("../fonts/cooperhewitt-medium-webfont.ttf") format("truetype"), url("../fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'cooper_hewittsemibold';
+  src: url("../fonts/cooperhewitt-semibold-webfont.eot");
+  src: url("../fonts/cooperhewitt-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cooperhewitt-semibold-webfont.woff2") format("woff2"), url("../fonts/cooperhewitt-semibold-webfont.woff") format("woff"), url("../fonts/cooperhewitt-semibold-webfont.ttf") format("truetype"), url("../fonts/cooperhewitt-semibold-webfont.svg#cooper_hewittsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 /*# sourceMappingURL=main.css.map */
