@@ -1,0 +1,47 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+$secondary-color: #4C76BD;
+
+body {
+  padding-top:20vh;
+  background-color:#80CEDF;
+  font-family:"franklin-gothic-urw-cond", "Helvetica", "Helvetica Neue", "Calibri", sans-serif;
+  text-transform:lowercase;
+  @include outer-container;
+  padding-left:10%;
+  @include media(max-width 570px) {
+    padding-top:5vh;
+    padding-left:7%;
+  }
+}
+
+header {
+  font-size:1.8em;
+  color:$secondary-color;
+  padding-bottom:20vh;
+  @include media(max-width 570px) {
+    padding-bottom:5vh;
+    font-size:1.6em;
+  }
+}
+
+section {
+  @include span-columns(3);
+  font-size:1.7em;
+  @include media(max-width 570px) {
+    @include span-columns(12);
+    font-size:1.5em;
+  }
+}
+
+section a {
+  color:white;
+  text-decoration:none;
+  float:left;
+  clear:both;
+
+  &:hover {
+    color:$secondary-color;
+  }
+}
