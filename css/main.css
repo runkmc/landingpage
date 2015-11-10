@@ -36,7 +36,8 @@ div#section-wrapper {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 4em; }
   div#section-wrapper:last-child {
     margin-right: 0; }
 

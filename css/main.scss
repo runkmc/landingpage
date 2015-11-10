@@ -29,6 +29,7 @@ header {
 
 div#section-wrapper {
   @include span-columns(12);
+  padding-bottom:4em;
 }
 
 section {
